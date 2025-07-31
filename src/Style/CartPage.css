@@ -1,0 +1,103 @@
+/* CartPage.css */
+
+/* General Cart Page Styles */
+.cart-page {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+  }
+  
+  /* Styling for Each Cart Item */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .cart-item-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cart-item-title {
+    margin-left: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* Quantity Button Styles */
+  .cart-item-quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Price and Remove Button Styles */
+  .cart-item-price {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .remove-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Total Price Section */
+  .total-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: 2px solid #f0f0f0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .total-price-value {
+    font-size: 1.5rem;
+    color: #27ae60;
+  }
+  
